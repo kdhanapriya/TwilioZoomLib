@@ -177,6 +177,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.19"
+  twiliozoompkg:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "77e6e5a5f85b3d494e7a28a2b2b63d13066be49a"
+      url: "git://github.com/bhanuenoah/flutter_pkg.git"
+    source: git
+    version: "0.0.1"
   typed_data:
     dependency: transitive
     description:
@@ -193,4 +202,4 @@ packages:
     version: "2.1.0"
 sdks:
   dart: ">=2.12.0-0.0 <3.0.0"
-  flutter: ">=1.16.0"
+  flutter: ">=1.20.0"

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
-import 'package:twiliozoompkg_example/bloc/twilio/twilio_cubit.dart';
-
-import 'package:twiliozoompkg_example/bloc/zoom/zoom_cubit.dart';
+import 'package:twiliozoomlib/bloc/twilio/twilio_cubit.dart';
+import 'package:twiliozoomlib/bloc/zoom/zoom_cubit.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

@@ -28,6 +28,10 @@ dependencies:
   flutter_bloc: ^6.1.1
   equatable: ^1.2.5  
 
+  twiliozoompkg:
+    git:
+      url: git://github.com/bhanuenoah/flutter_pkg.git
+      ref: main 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

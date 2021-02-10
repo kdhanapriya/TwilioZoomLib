@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:get_it/get_it.dart';
-import 'package:twiliozoompkg_example/repository/repository.dart';
+import 'package:twiliozoomlib/repository/repository.dart';
 
 part 'zoom_state.dart';
 

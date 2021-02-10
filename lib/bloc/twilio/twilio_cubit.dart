@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:get_it/get_it.dart';
 import 'package:meta/meta.dart';
-import 'package:twiliozoompkg_example/repository/repository.dart';
+import 'package:twiliozoomlib/repository/repository.dart';
 
 part 'twilio_state.dart';
 

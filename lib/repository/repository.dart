@@ -1,6 +1,5 @@
 import 'package:get_it/get_it.dart';
-import 'package:twiliozoompkg_example/repository/twilio_api_provider.dart';
-
+import 'package:twiliozoomlib/repository/twilio_api_provider.dart';
 import 'zoom_api_privider.dart';
 
 class Repository {

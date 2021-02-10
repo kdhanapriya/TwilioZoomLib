@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - twiliozoompkg (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - twiliozoompkg (from `.symlinks/plugins/twiliozoompkg/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  twiliozoompkg:
+    :path: ".symlinks/plugins/twiliozoompkg/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  twiliozoompkg: a03fded1e8f4ad2be7f1520830de020847a5247b
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
