@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:twiliozoompkg_example/bloc/twilio/twilio_cubit.dart';
-import 'package:twiliozoompkg_example/bloc/zoom/zoom_cubit.dart';
-import 'package:twiliozoompkg_example/repository/repository.dart';
-import 'package:twiliozoompkg_example/repository/twilio_api_provider.dart';
-import 'package:twiliozoompkg_example/repository/zoom_api_privider.dart';
+import 'package:twiliozoomlib/repository/repository.dart';
+import 'package:twiliozoomlib/repository/twilio_api_provider.dart';
+import 'package:twiliozoomlib/repository/zoom_api_privider.dart';
+import 'package:twiliozoomlib/screen/home_screen.dart';
 
-import 'package:twiliozoompkg_example/screen/home_screen.dart';
+import 'bloc/twilio/twilio_cubit.dart';
+import 'bloc/zoom/zoom_cubit.dart';
 
 void main() {
   _setUp();
