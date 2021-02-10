@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// add the dependencies
 void _setUp() {
   print("Inside setup");
   GetIt.I.registerSingleton<ZoomApiProvider>(ZoomApiProvider());

@@ -12,7 +12,9 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
+      // here used two listner. so added multiple listner
       body: MultiBlocListener(listeners: [
+        //zoom listner
         BlocListener<ZoomCubit, ZoomState>(
           cubit: GetIt.I.get<ZoomCubit>(),
           listener: (context, state) {
@@ -36,6 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
             }
           },
         ),
+        //twilio listner
         BlocListener<TwilioCubit, TwilioState>(
           cubit: GetIt.I.get<TwilioCubit>(),
           listener: (context, state) {
@@ -64,6 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+// home screen widget
   Widget homeWidget(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -85,6 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           borderRadius: BorderRadius.circular(45.0),
                           side: BorderSide(color: Colors.red)),
                       onPressed: () {
+                        //click the twilio button call the twilio cubit
                         TwilioCubit twilioCubit = GetIt.I.get<TwilioCubit>();
                         twilioCubit.connectTwilio();
                       },
@@ -103,6 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             borderRadius: BorderRadius.circular(45.0),
                             side: BorderSide(color: Colors.blue)),
                         onPressed: () {
+                          //click the twilio button call the zoom cubit
                           ZoomCubit zoomCubit = GetIt.I.get<ZoomCubit>();
                           zoomCubit.connectZoom();
                         },
